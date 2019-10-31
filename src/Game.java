@@ -33,8 +33,8 @@ public class Game {
 
         String title= RandomMovie.title;
         // count how many char are there
-        int titleSize = RandomMovie.title.length();
-      //  System.out.println(RandomMovie.title);
+        
+      
 
         String liner = lines(title);
 
@@ -80,7 +80,7 @@ public class Game {
 
 
 
-              // System.out.println(liner);
+              
 
                System.out.print("  Wrong letters : "+ wrongLetter);
                System.out.println("");
