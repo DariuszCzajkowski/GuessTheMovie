@@ -4,7 +4,7 @@ public class RandomMovie {
 
 
     public static String title;
-
+    public static int wordCount;
     RandomMovie() throws Exception{
 
     int index=0;
@@ -21,6 +21,8 @@ public class RandomMovie {
         //save in array each movie title
         while (fileScanner.hasNextLine()) {
            line = fileScanner.nextLine();
+
+
             titleArray[index]=line;
             index++;
 
@@ -30,6 +32,8 @@ public class RandomMovie {
 
 
           title=titleArray[randomNumber];
+
+         wordCount=title.split(" ").length;
             }
 
 }
