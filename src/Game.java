@@ -25,19 +25,21 @@ public class Game {
 
         Scanner scanner = new Scanner(System.in);
         boolean result;
-        int letterCheck = 0;
-        int index = 10;
+
         // call the title lottery
         RandomMovie chosen = new RandomMovie();
         int points=10;
 
         String title= RandomMovie.title;
+<<<<<<< Updated upstream
         // count how many char are there
         
       
+=======
+>>>>>>> Stashed changes
 
         String liner = lines(title);
-
+    // find and change the spaces
         for(int i=0 ; i<title.length(); i++) {
             result = (title.charAt(i) + "").equals(" ");
             if (result) {
@@ -75,12 +77,17 @@ public class Game {
                 points--;
            }
 
+<<<<<<< Updated upstream
                 System.out.println("you have " + points + " chance left");
            System.out.println("Guess another : "+liner );
 
 
 
               
+=======
+               System.out.println("you have " + points + " chance left");
+               System.out.println("Guess another : "+liner );
+>>>>>>> Stashed changes
 
                System.out.print("  Wrong letters : "+ wrongLetter);
                System.out.println("");
