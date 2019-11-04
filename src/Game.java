@@ -31,12 +31,6 @@ public class Game {
         int points=10;
 
         String title= RandomMovie.title;
-<<<<<<< Updated upstream
-        // count how many char are there
-        
-      
-=======
->>>>>>> Stashed changes
 
         String liner = lines(title);
     // find and change the spaces
@@ -77,17 +71,8 @@ public class Game {
                 points--;
            }
 
-<<<<<<< Updated upstream
-                System.out.println("you have " + points + " chance left");
-           System.out.println("Guess another : "+liner );
-
-
-
-              
-=======
                System.out.println("you have " + points + " chance left");
                System.out.println("Guess another : "+liner );
->>>>>>> Stashed changes
 
                System.out.print("  Wrong letters : "+ wrongLetter);
                System.out.println("");
